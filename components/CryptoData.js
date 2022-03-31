@@ -1,9 +1,4 @@
-import { useContext } from 'react'
-import { Context } from '../context/FirstContext'
-function CryptoData() {
-  const { data } = useContext(Context)
-
-  console.log(data)
+function CryptoData({data}) {
   return (
     <div className="">
       <div className="space-y-4">
@@ -26,3 +21,4 @@ function CryptoData() {
 }
 
 export default CryptoData
+
